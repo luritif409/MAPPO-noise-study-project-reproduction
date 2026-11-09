@@ -1,0 +1,7 @@
+{
+  "train_seed": 1,
+  "selected_checkpoint": "C:\\Users\\angga\\DOKTORAL\\04_Data-dan-eksperimen\\Kode\\MAPPO-noise-study-project-reproduction\\outputs\\checkpoints\\baseline_seed1\\actor_ep8400.pt",
+  "validation_episodes": 20,
+  "mean_reward": -158.92331592157575,
+  "success_rate": 0.0
+}
