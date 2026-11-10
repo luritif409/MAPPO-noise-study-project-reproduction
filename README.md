@@ -20,7 +20,6 @@ tools/                     training, validasi, evaluasi, grafik
 tests/                     pemeriksaan environment dan metrik
 vendor/on-policy/          upstream commit yang dipin
 outputs/                   log, checkpoint, CSV, dan grafik
-REPORT_TEMPLATE.md         kerangka laporan
 ```
 
 ## Urutan menjalankan
