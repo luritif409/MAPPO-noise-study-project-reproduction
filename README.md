@@ -1,4 +1,4 @@
-# MAPPO Observation-Noise Study
+# Ketahanan MAPPO terhadap noise observasi agen
 
 Project reproduksi terbatas R-MAPPO pada MPE `simple_spread`, dilanjutkan dengan eksplorasi terkontrol noise observasi saat evaluasi.
 
