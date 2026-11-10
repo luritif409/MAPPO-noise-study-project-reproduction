@@ -26,6 +26,17 @@ outputs/                   log, checkpoint, CSV, dan grafik
 
 ### 1. Membuat environment
 
+Eksperimen pelatihan dijalankan dalam virtual environment Python 3.10
+dengan PyTorch 2.2.2 CPU. Python 3.10 digunakan karena dependensi
+MAPPO pada kode upstream yang dipakai dalam eksperimen ini memerlukannya.
+
+Catatan: `outputs/metadata/system_info.json` yang saat ini ada di
+repositori tercatat dari lingkungan Python 3.13.2 sebelum PyTorch
+tersedia (`torch: null`). Acuan konfigurasi pelatihan
+terdapat pada `config/protocol.json`, perintah pada
+`outputs/runs/baseline_seed*.json`, dan log pelatihan. Metadata
+lingkungan diperbarui dari virtual environment Python 3.10.
+
 ```bash
 bash scripts/setup_env.sh
 ```
@@ -95,5 +106,7 @@ Project mem-vendor upstream `marlbenchmark/on-policy` commit `de66d7a4b23fac2513
 3. meneruskan seluruh diagnostics skenario melalui `info` environment;
 4. menambahkan pipeline validation dan test-time observation noise.
 
+Reproduksi dari awal memerlukan kode upstream pada commit yang disebutkan
+di atas serta dependensi dalam `requirements-minimal.txt`.
 
 
