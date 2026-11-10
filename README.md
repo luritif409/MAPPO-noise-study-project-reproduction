@@ -95,7 +95,5 @@ Project mem-vendor upstream `marlbenchmark/on-policy` commit `de66d7a4b23fac2513
 3. meneruskan seluruh diagnostics skenario melalui `info` environment;
 4. menambahkan pipeline validation dan test-time observation noise.
 
-Eksperimen ini tidak boleh disebut reproduksi penuh paper.
 
-Folder `outputs/verification_1000_steps` yang disertakan hanya membuktikan pipeline dapat berjalan dari training sampai grafik. Hasil tersebut bukan hasil eksperimen.
 
