@@ -78,18 +78,6 @@ Noise: 0; 0,05; 0,10; 0,20; 0,30. Setiap kondisi memakai 100 test episode yang s
 bash scripts/06_plot_training.sh
 ```
 
-### 8. Menyusun laporan
-
-Gunakan:
-
-- `outputs/evaluation/noise_episode_results.csv`;
-- `outputs/evaluation/noise_summary.csv`;
-- `outputs/figures/noise_vs_reward.png`;
-- `outputs/figures/noise_vs_success.png`;
-- `outputs/figures/noise_vs_collisions.png`;
-- `outputs/figures/baseline_learning_curves.png`;
-- `REPORT_TEMPLATE.md`.
-
 ## Menjalankan seluruh tahap
 
 ```bash
